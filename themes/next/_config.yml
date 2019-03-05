@@ -128,7 +128,7 @@ scheme: Muse
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/crazyfzw || github
-  CSDN: http://blog.csdn.net/fzw_faith || skype
+  Booklist: https://book.douban.com/people/crazyfzw/ || skype
   E-Mail: mailto:crazyfzw@gmail.com || envelope
   Google: https://plus.google.com/104894167431407693109 || google  
   Facebook: https://www.facebook.com/profile.php?id=100011315733045 || facebook
@@ -152,16 +152,19 @@ links_title: 推荐博客
 links_layout: block
 #links_layout: inline
 links:
+   InfoQ: https://www.infoq.cn/
    并发编程网: http://ifeve.com/
    ImportNew: http://www.importnew.com/  
    阿里中间件团队博客: http://jm.taobao.org/categories/
    IBM developerworks: https://www.ibm.com/developerworks/cn/java/
    美团点评技术团队: https://tech.meituan.com/
-   李艳鹏的博客: https://www.jianshu.com/u/581f548ef0ec
+   江南白衣的博客: http://calvin1978.blogcn.com/
    梁桂钊的博客: http://blog.720ui.com
+   李艳鹏的博客: https://www.jianshu.com/u/581f548ef0ec
    张开涛的博客: http://jinnianshilongnian.iteye.com/
-   neoremind的博客: http://neoremind.com/
-   简单之美的博客: http://shiyanjun.cn/
+   左潇龙的博客: https://www.cnblogs.com/zuoxiaolong
+   五月的仓颉: https://www.cnblogs.com/xrq730/
+   Yikun的博客: https://yikun.github.io/
    阮一峰的个人网站: http://www.ruanyifeng.com
    BAOBAB的博客: https://blog.csdn.net/baobab_cc
 
@@ -245,9 +248,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
+  wordcount: true
+  min2read: true
+  totalcount: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -417,7 +420,7 @@ valine:
 # You can get your Github ID from https://api.github.com/users/<Github username>
 gitment:
   enable: true
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  mint: false # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more

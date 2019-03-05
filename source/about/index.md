@@ -5,6 +5,6 @@ comments: false
 ---
 
 * Nickname: crazyfzw
+* Location： Guangzhou China
 * Email: crazyfzw@gmail.com
 * Github: [@crazyfzw](https://github.com/crazyfzw)
-*
