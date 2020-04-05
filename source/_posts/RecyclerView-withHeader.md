@@ -19,6 +19,8 @@ tags:
 
 主要思路就是先定义好标识itemType的常量，然后重写getItemViewType()方法，根据不同的位置（position）返回不同的Type，接着在onCreateViewHolder()中根据参数viewType去判断该item项应该 inflate 哪个布局文件，并返回相应的ViewHolder实例(这里ViewHolder是根据不同的item布局预先自定义好的不同的ViewHolder)
 
+<!--more-->
+
 
 
 比如我的代码：

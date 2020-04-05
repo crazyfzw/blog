@@ -14,6 +14,7 @@ tags:
 查看tomcat进程  ps -ef | grep tomcat
 查看某项目进程  ps -ef | grep 目录名  ps -ef | grep ems
 ```
+<!--more-->
 
 #### 查看实时日志
 ```

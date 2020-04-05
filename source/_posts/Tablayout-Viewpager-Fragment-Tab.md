@@ -13,6 +13,9 @@ tags:
 
 实现活动Tab的方式有很多种，今天我们要用的是使用Google 提供的Design support library 库中的Tablayout去实现，Tablayout是Google I/O 2015 退出8个新的组件之一，可以轻松的结合Viewpager和Fragment实现滑动tab菜单。
 
+<!--more-->
+
+
 运行效果截图：
 
 ![](/images/20160101.jpg)

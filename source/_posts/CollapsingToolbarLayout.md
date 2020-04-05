@@ -15,6 +15,8 @@ tags:
 
 我们都知道CoordinatorLayout+AppBarLayout可以轻松实现滚动隐藏ToolBar的效果，今天我要写的是CollapsingToolbarLayout+CoordinatorLayout+AppBarLayout实现带Banner的Toolbar折叠效果————向上滚动时，Banner会随着滚动手势向上收缩至隐藏，Banner上的文字（实际上是CollapsingToolbarLayout上的文字）会逐渐缩小最后显示在Toolbar上，向下滚动时，Banner会逐渐显示并还原为原来大小，同时文字也会最近变大重回原来的位置。
 
+<!--more-->
+
 
 知乎日报新闻详情页就用了这种效果，那赶紧看下面Gif效果图吧：
 

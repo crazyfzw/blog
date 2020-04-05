@@ -24,6 +24,8 @@ Redis 是一种基于键值对（key-value）的高性能内存数据库。与�
 - 提供了简单的事务功能， 能在一定程度上保证事物特性。
 - 提供了流水线（Pipeline）功能， 客户端可以将一批命令一次性传到 Redis，从而减少网络的开销。
 
+<!--more-->
+
 Redis 内部使用一个 redisObject 对象来表示所有的 key 和 value。redisObject 最主要的信息如图所示：
 
 ![](/images/20180808000.png)

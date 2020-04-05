@@ -21,6 +21,8 @@ ArrayList、Vector、LinkedList 这三者都是集合框架中的 List，所以�
 
 从上图可以看到，Collection接口是所有集合的根，然后扩展开提供了三大类集合，分别是：
 
+<!--more-->
+
 - List，有序集合，列表中的元素可重复，它提供了方便的访问、插入、删除等操作。
 
 - Set，Set是不允许元素重复的，这是和List最明显的区别，也就是不存在两个equals返回true的情况。广泛用于需要保证元素唯一的场合。
@@ -28,6 +30,7 @@ ArrayList、Vector、LinkedList 这三者都是集合框架中的 List，所以�
 - Queue/Deque ，则是Java提供的标准队列结构的实现，除了集合的基本功能，它还支持类似 先入先出（FIFO ，First-in-First-Out)储后入先出（LIFO，Last-In-First-Out)等特定行 为。这里不包括 BlockingQueue ，因为通常是并发编程杨合，所以被放置在并发包里。
 
 每种集合的通用逻辑，都被抽象到相应的抽象类之中，比如AbstractList就集中了各种List操作的 通用部分。这些集合不是完全孤立的，比如，LinkedList本身，既是List，也是 Deque。
+
 
 ## 二、ArrayList、Vector、LinkedList 
 

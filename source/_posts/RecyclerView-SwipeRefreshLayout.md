@@ -15,6 +15,7 @@ tags:
 
 
  **RecyclerView是google在2014年I/O大会上提出新的用于取代ListView的组件，是 android-support-v7-21 版本中新增的一个 Widgets，它的灵活性与可替代性比listview更好。**
+<!--more-->
 
 
 

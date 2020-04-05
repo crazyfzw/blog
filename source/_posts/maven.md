@@ -29,6 +29,8 @@ Maven 能够帮助开发者完成以下工作：
 
 Maven 工程结构和内容被定义在一个 xml 文件中 － pom.xml，是 Project Object Model (POM) 的简称，此文件是整个 Maven 系统的基础组件
 
+<!--more-->
+
 
 
 ## **二、安装**

@@ -10,6 +10,8 @@ tags:
 
 前些时间，买了个 阿里云 ECS，详细配置为 1vCPU、1GB 内存、40GB系统盘、20GB SSD，搭载的是 CentOS 7.4 系统。这里仅记录下在 ECS 上搭建 Java WEB 环境的过程。
 
+<!--more-->
+
 ## 一、远程连接服务器
 
 我这里使用的是 Xshell + Xftp 组合。Xshell 用来远程访问并控制终端，Xftp  基本上只用于传输文件。

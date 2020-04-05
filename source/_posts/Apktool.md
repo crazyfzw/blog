@@ -19,6 +19,8 @@ tags:
 
 ![](/images/2016041901.jpg)
 
+<!--more-->
+
 
 
 其中，res为所有资源文件，META-INF为签名信息，classes.dex为java源码编译后生成的字节码。

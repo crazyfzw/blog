@@ -13,6 +13,8 @@ tags:
 ## 一、概述
 Jedis 是 Redis 官方推荐的 Java 连接开发工具。Jedis 是一个非常小但又功能健全的 java 客户端。Jedis 是开源的，目前最新版本是 2.9.0 , 兼容 redis 2.8.x 和 3.x.x.版本，Github 地址： [https://github.com/xetorthio/jedis](https://github.com/xetorthio/jedis)
 
+<!--more-->
+
 **Jedis 提供了哪些支持？**
 - 排序
 - 连接操作
